@@ -1,0 +1,39 @@
+body {
+    font-family: Calibri, sans-serif;
+    width: 800px;
+    margin: auto;
+}
+
+a {
+    cursor: pointer;
+    color: blue;
+    text-decoration: none;
+}
+
+table {
+    width: 100%;
+}
+
+table thead tr {
+    background: #ccc;
+}
+
+table tbody tr {
+    background: #ddd;
+}
+
+table tbody tr:nth-child(2n + 1) {
+    background: #eee;
+}
+
+table tr td:nth-child(1) {
+    text-align: center;
+}
+
+table tr td:nth-child(3), table tr td:nth-child(4) {
+    text-align: right;
+}
+
+.error {
+    color: red;
+}

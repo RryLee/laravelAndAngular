@@ -1,0 +1,280 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   'C:\\Users\\li\\AppData\\Roaming\\npm\\node_modules\\cnpm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   '--userconfig=C:\\Users\\li\\.cnpmrc',
+1 verbose cli   '--disturl=https://npm.taobao.org/mirrors/node',
+1 verbose cli   '--cache=C:\\Users\\li\\.cnpm',
+1 verbose cli   '--registry=https://registry.npm.taobao.org',
+1 verbose cli   '--node-gyp=C:\\Users\\li\\AppData\\Roaming\\npm\\node_modules\\cnpm\\node_modules\\pangyp\\bin\\node-gyp.js',
+1 verbose cli   'install',
+1 verbose cli   'angular',
+1 verbose cli   'satellizer',
+1 verbose cli   'angular-ui-route' ]
+2 info using npm@2.7.6
+3 info using node@v0.12.4
+4 verbose install initial load of C:\Users\li\Desktop\cms\package.json
+5 verbose readDependencies loading dependencies from C:\Users\li\Desktop\cms\package.json
+6 silly cache add args [ 'angular', null ]
+7 verbose cache add spec angular
+8 silly cache add args [ 'satellizer', null ]
+9 verbose cache add spec satellizer
+10 silly cache add args [ 'angular-ui-route', null ]
+11 verbose cache add spec angular-ui-route
+12 silly cache add parsed spec { raw: 'angular',
+12 silly cache add   scope: null,
+12 silly cache add   name: 'angular',
+12 silly cache add   rawSpec: '',
+12 silly cache add   spec: '*',
+12 silly cache add   type: 'range' }
+13 silly addNamed angular@*
+14 verbose addNamed "*" is a valid semver range for angular
+15 silly addNameRange { name: 'angular', range: '*', hasData: false }
+16 silly mapToRegistry name angular
+17 silly mapToRegistry using default registry
+18 silly mapToRegistry registry https://registry.npm.taobao.org/
+19 silly mapToRegistry uri https://registry.npm.taobao.org/angular
+20 verbose addNameRange registry:https://registry.npm.taobao.org/angular not in flight; fetching
+21 silly cache add parsed spec { raw: 'satellizer',
+21 silly cache add   scope: null,
+21 silly cache add   name: 'satellizer',
+21 silly cache add   rawSpec: '',
+21 silly cache add   spec: '*',
+21 silly cache add   type: 'range' }
+22 silly addNamed satellizer@*
+23 verbose addNamed "*" is a valid semver range for satellizer
+24 silly addNameRange { name: 'satellizer', range: '*', hasData: false }
+25 silly mapToRegistry name satellizer
+26 silly mapToRegistry using default registry
+27 silly mapToRegistry registry https://registry.npm.taobao.org/
+28 silly mapToRegistry uri https://registry.npm.taobao.org/satellizer
+29 verbose addNameRange registry:https://registry.npm.taobao.org/satellizer not in flight; fetching
+30 silly cache add parsed spec { raw: 'angular-ui-route',
+30 silly cache add   scope: null,
+30 silly cache add   name: 'angular-ui-route',
+30 silly cache add   rawSpec: '',
+30 silly cache add   spec: '*',
+30 silly cache add   type: 'range' }
+31 silly addNamed angular-ui-route@*
+32 verbose addNamed "*" is a valid semver range for angular-ui-route
+33 silly addNameRange { name: 'angular-ui-route', range: '*', hasData: false }
+34 silly mapToRegistry name angular-ui-route
+35 silly mapToRegistry using default registry
+36 silly mapToRegistry registry https://registry.npm.taobao.org/
+37 silly mapToRegistry uri https://registry.npm.taobao.org/angular-ui-route
+38 verbose addNameRange registry:https://registry.npm.taobao.org/angular-ui-route not in flight; fetching
+39 verbose request uri https://registry.npm.taobao.org/angular-ui-route
+40 verbose request no auth needed
+41 info attempt registry request try #1 at 09:28:59
+42 verbose request id cfe4f8a1a81461b7
+43 http request GET https://registry.npm.taobao.org/angular-ui-route
+44 verbose request uri https://registry.npm.taobao.org/angular
+45 verbose request no auth needed
+46 info attempt registry request try #1 at 09:28:59
+47 verbose etag "1434467241000"
+48 http request GET https://registry.npm.taobao.org/angular
+49 verbose request uri https://registry.npm.taobao.org/satellizer
+50 verbose request no auth needed
+51 info attempt registry request try #1 at 09:28:59
+52 verbose etag "1433997471000"
+53 http request GET https://registry.npm.taobao.org/satellizer
+54 http 304 https://registry.npm.taobao.org/satellizer
+55 silly get cb [ 304,
+55 silly get   { server: 'nginx/1.1.19',
+55 silly get     date: 'Thu, 02 Jul 2015 01:29:40 GMT',
+55 silly get     connection: 'keep-alive',
+55 silly get     etag: '"1433997471000"',
+55 silly get     'x-readtime': '6' } ]
+56 verbose etag https://registry.npm.taobao.org/satellizer from cache
+57 verbose get saving satellizer to C:\Users\li\.cnpm\registry.npm.taobao.org\satellizer\.cache.json
+58 http 304 https://registry.npm.taobao.org/angular
+59 silly get cb [ 304,
+59 silly get   { server: 'nginx/1.1.19',
+59 silly get     date: 'Thu, 02 Jul 2015 01:29:40 GMT',
+59 silly get     connection: 'keep-alive',
+59 silly get     etag: '"1434467241000"',
+59 silly get     'x-readtime': '5' } ]
+60 verbose etag https://registry.npm.taobao.org/angular from cache
+61 verbose get saving angular to C:\Users\li\.cnpm\registry.npm.taobao.org\angular\.cache.json
+62 silly addNameRange number 2 { name: 'satellizer', range: '*', hasData: true }
+63 silly addNameRange versions [ 'satellizer',
+63 silly addNameRange   [ '0.11.2',
+63 silly addNameRange     '0.11.1',
+63 silly addNameRange     '0.11.0',
+63 silly addNameRange     '0.10.1',
+63 silly addNameRange     '0.9.4',
+63 silly addNameRange     '0.9.3',
+63 silly addNameRange     '0.9.2',
+63 silly addNameRange     '0.9.1',
+63 silly addNameRange     '0.9.0',
+63 silly addNameRange     '0.8.8',
+63 silly addNameRange     '0.8.7',
+63 silly addNameRange     '0.8.6',
+63 silly addNameRange     '0.8.5',
+63 silly addNameRange     '0.8.4',
+63 silly addNameRange     '0.8.3',
+63 silly addNameRange     '0.8.2',
+63 silly addNameRange     '0.8.1',
+63 silly addNameRange     '0.8.0',
+63 silly addNameRange     '0.7.1',
+63 silly addNameRange     '0.7.0',
+63 silly addNameRange     '0.6.4',
+63 silly addNameRange     '0.6.3',
+63 silly addNameRange     '0.6.2',
+63 silly addNameRange     '0.6.1',
+63 silly addNameRange     '0.6.0',
+63 silly addNameRange     '0.5.0',
+63 silly addNameRange     '0.4.1',
+63 silly addNameRange     '0.4.0',
+63 silly addNameRange     '0.3.3',
+63 silly addNameRange     '0.3.2',
+63 silly addNameRange     '0.3.1',
+63 silly addNameRange     '0.3.0',
+63 silly addNameRange     '0.2.0',
+63 silly addNameRange     '0.1.0',
+63 silly addNameRange     '1.0.0',
+63 silly addNameRange     '0.0.0' ] ]
+64 silly addNamed satellizer@0.11.2
+65 verbose addNamed "0.11.2" is a plain semver version for satellizer
+66 silly addNameRange number 2 { name: 'angular', range: '*', hasData: true }
+67 silly addNameRange versions [ 'angular',
+67 silly addNameRange   [ '1.4.1',
+67 silly addNameRange     '1.3.16',
+67 silly addNameRange     '1.4.0',
+67 silly addNameRange     '1.4.0-rc.2',
+67 silly addNameRange     '1.4.0-rc.1',
+67 silly addNameRange     '1.4.0-rc.0',
+67 silly addNameRange     '1.3.15',
+67 silly addNameRange     '1.4.0-beta.6',
+67 silly addNameRange     '1.4.0-beta.5',
+67 silly addNameRange     '1.3.14',
+67 silly addNameRange     '1.4.0-beta.4',
+67 silly addNameRange     '1.3.13',
+67 silly addNameRange     '1.3.12',
+67 silly addNameRange     '1.4.0-beta.3',
+67 silly addNameRange     '1.3.11',
+67 silly addNameRange     '1.4.0-beta.2',
+67 silly addNameRange     '1.4.0-beta.1',
+67 silly addNameRange     '1.3.10',
+67 silly addNameRange     '1.3.9',
+67 silly addNameRange     '1.4.0-beta.0',
+67 silly addNameRange     '1.3.8',
+67 silly addNameRange     '1.2.28',
+67 silly addNameRange     '1.3.7',
+67 silly addNameRange     '1.3.6',
+67 silly addNameRange     '1.3.5',
+67 silly addNameRange     '1.3.4',
+67 silly addNameRange     '1.2.27',
+67 silly addNameRange     '1.3.4-build.3588',
+67 silly addNameRange     '1.3.3',
+67 silly addNameRange     '1.3.2',
+67 silly addNameRange     '1.3.1',
+67 silly addNameRange     '1.3.0',
+67 silly addNameRange     '1.3.0-rc.5',
+67 silly addNameRange     '1.2.23',
+67 silly addNameRange     '1.2.22',
+67 silly addNameRange     '1.2.21',
+67 silly addNameRange     '1.2.20',
+67 silly addNameRange     '1.2.19',
+67 silly addNameRange     '1.2.18',
+67 silly addNameRange     '1.2.17',
+67 silly addNameRange     '1.2.16',
+67 silly addNameRange     '1.2.15',
+67 silly addNameRange     '1.2.14',
+67 silly addNameRange     '1.2.13',
+67 silly addNameRange     '1.2.12',
+67 silly addNameRange     '1.2.11',
+67 silly addNameRange     '1.2.10',
+67 silly addNameRange     '1.2.9',
+67 silly addNameRange     '1.2.8',
+67 silly addNameRange     '1.2.7',
+67 silly addNameRange     '1.2.6',
+67 silly addNameRange     '1.2.5',
+67 silly addNameRange     '1.2.4',
+67 silly addNameRange     '1.2.3',
+67 silly addNameRange     '1.2.2',
+67 silly addNameRange     '1.2.1',
+67 silly addNameRange     '1.2.0',
+67 silly addNameRange     '1.1.5',
+67 silly addNameRange     '1.1.4',
+67 silly addNameRange     '1.1.3',
+67 silly addNameRange     '1.1.2',
+67 silly addNameRange     '1.1.1',
+67 silly addNameRange     '1.1.0',
+67 silly addNameRange     '1.0.8',
+67 silly addNameRange     '1.0.7',
+67 silly addNameRange     '1.0.6',
+67 silly addNameRange     '1.0.5',
+67 silly addNameRange     '1.0.4',
+67 silly addNameRange     '1.0.3',
+67 silly addNameRange     '1.0.2',
+67 silly addNameRange     '1.0.1',
+67 silly addNameRange     '1.0.0',
+67 silly addNameRange     '0.0.4',
+67 silly addNameRange     '0.0.3',
+67 silly addNameRange     '0.0.2',
+67 silly addNameRange     '0.0.1-2',
+67 silly addNameRange     '0.0.1-1',
+67 silly addNameRange     '0.0.1' ] ]
+68 silly addNamed angular@1.4.1
+69 verbose addNamed "1.4.1" is a plain semver version for angular
+70 silly cache afterAdd satellizer@0.11.2
+71 verbose afterAdd C:\Users\li\.cnpm\satellizer\0.11.2\package\package.json not in flight; writing
+72 silly cache afterAdd angular@1.4.1
+73 verbose afterAdd C:\Users\li\.cnpm\angular\1.4.1\package\package.json not in flight; writing
+74 verbose afterAdd C:\Users\li\.cnpm\satellizer\0.11.2\package\package.json written
+75 verbose afterAdd C:\Users\li\.cnpm\angular\1.4.1\package\package.json written
+76 http 404 https://registry.npm.taobao.org/angular-ui-route
+77 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+77 verbose headers   'content-type': 'application/json',
+77 verbose headers   'cache-control': 'max-age=0',
+77 verbose headers   'content-length': '51',
+77 verbose headers   'accept-ranges': 'bytes',
+77 verbose headers   date: 'Thu, 02 Jul 2015 01:29:41 GMT',
+77 verbose headers   via: '1.1 varnish',
+77 verbose headers   age: '0',
+77 verbose headers   connection: 'close',
+77 verbose headers   'x-served-by': 'cache-nrt6134-NRT',
+77 verbose headers   'x-cache': 'MISS',
+77 verbose headers   'x-cache-hits': '0',
+77 verbose headers   'x-timer': 'S1435800581.363083,VS0,VE117' }
+78 silly get cb [ 404,
+78 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+78 silly get     'content-type': 'application/json',
+78 silly get     'cache-control': 'max-age=0',
+78 silly get     'content-length': '51',
+78 silly get     'accept-ranges': 'bytes',
+78 silly get     date: 'Thu, 02 Jul 2015 01:29:41 GMT',
+78 silly get     via: '1.1 varnish',
+78 silly get     age: '0',
+78 silly get     connection: 'close',
+78 silly get     'x-served-by': 'cache-nrt6134-NRT',
+78 silly get     'x-cache': 'MISS',
+78 silly get     'x-cache-hits': '0',
+78 silly get     'x-timer': 'S1435800581.363083,VS0,VE117' } ]
+79 verbose stack Error: 404 Not Found: angular-ui-route
+79 verbose stack     at CachingRegistryClient.<anonymous> (C:\Users\li\AppData\Roaming\npm\node_modules\cnpm\node_modules\npm\node_modules\npm-registry-client\lib\request.js:245:14)
+79 verbose stack     at Request._callback (C:\Users\li\AppData\Roaming\npm\node_modules\cnpm\node_modules\npm\node_modules\npm-registry-client\lib\request.js:170:14)
+79 verbose stack     at Request.self.callback (C:\Users\li\AppData\Roaming\npm\node_modules\cnpm\node_modules\npm\node_modules\request\request.js:360:22)
+79 verbose stack     at Request.emit (events.js:110:17)
+79 verbose stack     at Request.<anonymous> (C:\Users\li\AppData\Roaming\npm\node_modules\cnpm\node_modules\npm\node_modules\request\request.js:1202:14)
+79 verbose stack     at Request.emit (events.js:129:20)
+79 verbose stack     at IncomingMessage.<anonymous> (C:\Users\li\AppData\Roaming\npm\node_modules\cnpm\node_modules\npm\node_modules\request\request.js:1150:12)
+79 verbose stack     at IncomingMessage.emit (events.js:129:20)
+79 verbose stack     at _stream_readable.js:908:16
+79 verbose stack     at process._tickCallback (node.js:355:11)
+80 verbose statusCode 404
+81 verbose pkgid angular-ui-route
+82 verbose cwd C:\Users\li\Desktop\cms\public
+83 error Windows_NT 6.1.7601
+84 error argv "node" "C:\\Users\\li\\AppData\\Roaming\\npm\\node_modules\\cnpm\\node_modules\\npm\\bin\\npm-cli.js" "--userconfig=C:\\Users\\li\\.cnpmrc" "--disturl=https://npm.taobao.org/mirrors/node" "--cache=C:\\Users\\li\\.cnpm" "--registry=https://registry.npm.taobao.org" "--node-gyp=C:\\Users\\li\\AppData\\Roaming\\npm\\node_modules\\cnpm\\node_modules\\pangyp\\bin\\node-gyp.js" "install" "angular" "satellizer" "angular-ui-route"
+85 error node v0.12.4
+86 error npm  v2.7.6
+87 error code E404
+88 error 404 Not Found: angular-ui-route
+88 error 404
+88 error 404 'angular-ui-route' is not in the npm registry.
+88 error 404 You should bug the author to publish it (or use the name yourself!)
+88 error 404
+88 error 404 Note that you can also install from a
+88 error 404 tarball, folder, http url, or git url.
+89 verbose exit [ 1, true ]
